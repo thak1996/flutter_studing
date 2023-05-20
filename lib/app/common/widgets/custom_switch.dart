@@ -1,5 +1,6 @@
 import 'package:day_night_switcher/day_night_switcher.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter_web/app/app_controller.dart';
 
 class CustomSwitch extends StatelessWidget {
@@ -7,10 +8,12 @@ class CustomSwitch extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final AppController controller = Modular.get<AppController>();
+
     return DayNightSwitcherIcon(
-      isDarkModeEnabled: AppController.instance.isDarkMode,
+      isDarkModeEnabled: controller.isDarkMode,
       onStateChanged: (isDarkModeEnabled) {
-        AppController.instance.onStateChanged();
+        controller.onStateChanged();
       },
     );
   }

@@ -9,13 +9,10 @@ class HexColor extends Color {
     if (hexColor.length == 6) {
       hexColor = "FF$hexColor";
     }
-
     final hexNum = int.parse(hexColor, radix: 16);
-
     if (hexNum == 0) {
       return 0xff000000;
     }
-
     return hexNum;
   }
 }

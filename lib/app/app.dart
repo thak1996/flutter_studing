@@ -12,6 +12,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   final AppController controller = Modular.get<AppController>();
+
   @override
   Widget build(BuildContext context) {
     return AnimatedBuilder(

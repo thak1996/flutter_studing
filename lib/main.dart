@@ -4,5 +4,10 @@ import 'package:flutter_web/app/app.dart';
 import 'package:flutter_web/app/app_module.dart';
 
 void main() {
-  runApp(ModularApp(module: AppModule(), child: const MyApp()));
+  runApp(
+    ModularApp(
+      module: AppModule(),
+      child: const MyApp(),
+    ),
+  );
 }

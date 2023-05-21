@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
       animation: controller,
       builder: (context, child) {
         return MaterialApp.router(
-          title: 'Flutter Demo',
+          title: 'App',
           theme: ModeTheme.lightMode,
           darkTheme: ModeTheme.darkMode,
           themeMode: controller.isDarkMode ? ThemeMode.dark : ThemeMode.light,

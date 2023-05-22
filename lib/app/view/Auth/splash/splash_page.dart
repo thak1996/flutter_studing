@@ -3,6 +3,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter_web/app/common/constants/app_colors.dart';
 import 'package:flutter_web/app/common/constants/app_text_styles.dart';
+import 'package:flutter_web/app/common/widgets/custom_circular_progress_indicator.dart';
 import 'package:flutter_web/app/common/widgets/top_eclips.dart';
 
 class SplashPage extends StatefulWidget {
@@ -46,7 +47,7 @@ class _SplashPageState extends State<SplashPage> {
               .then()
               .shake(),
           const SizedBox(height: 10),
-          CircularProgressIndicator(color: AppColors.purpleWeak)
+          const CustomCircularProgressIndicator()
         ],
       ),
     );

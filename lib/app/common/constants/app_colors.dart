@@ -7,7 +7,7 @@ class AppColors {
   static Color white = HexColor("#FFFFFF");
   static Color purpleWeak = HexColor("#D3BFF9");
   static Color purpleMedium = HexColor("#925FF0");
-  static Color purpleStrong = HexColor("#");
+  static Color purpleStrong = HexColor("#784DC7");
   static Color error = HexColor("#F44336");
   static Color grey = HexColor("#666666");
   static Color lighGrey = HexColor("#BFBFBF");

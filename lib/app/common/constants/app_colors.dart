@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web/app/common/utils/conversion_hex.dart';
+import 'package:flutter_studing/app/common/utils/conversion_hex.dart';
 
 class AppColors {
   AppColors._();

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:flutter_web/app/app_controller.dart';
-import 'package:flutter_web/app/common/utils/default_theme.dart';
+import 'package:flutter_studing/app/app_controller.dart';
+import 'package:flutter_studing/app/common/utils/default_theme.dart';
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});

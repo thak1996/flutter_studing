@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web/app/common/widgets/custom_switch.dart';
+import 'package:flutter_studing/app/common/widgets/custom_switch.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

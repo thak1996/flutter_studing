@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_studing/app/common/utils/media_query.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter_web/app/common/utils/media_query.dart';
 
 class TopEclips extends StatelessWidget {
   const TopEclips({super.key});

@@ -1,4 +1,4 @@
-# flutter_web
+# flutter_studing
 
 A new Flutter project.
 
